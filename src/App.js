@@ -1,12 +1,12 @@
 import React from 'react';
 import AboutUs from './componentes/AboutUs/AboutUs';
-import FindRecepy from './componentes/FindRecepy/FindRecepy';
+import AppFindRecepy from './componentes/FindRecepy/AppFindRecepy';
 
 function App() {
   return (
     <div className="App">
       <AboutUs />
-      <FindRecepy/>
+      <AppFindRecepy/>
     </div>
   );
 }

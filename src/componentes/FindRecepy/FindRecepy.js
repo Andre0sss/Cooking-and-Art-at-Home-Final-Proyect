@@ -8,7 +8,7 @@ const FindRecepy = ()=> {
                 <h1>Find the recipe here</h1>
             </div>
             <div className="searchbox">
-                <input type="search" className="search-bar"/>
+                <input placeholder="Ask for recepys here" type="search" className="search-bar"/>
 
             </div>
         </div>
