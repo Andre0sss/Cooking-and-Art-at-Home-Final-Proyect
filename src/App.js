@@ -1,11 +1,12 @@
 import React from 'react';
 import AboutUs from './componentes/AboutUs/AboutUs';
-import './App.css'; /*tenemos que quitar este*/
+import FindRecepy from './componentes/FindRecepy/FindRecepy';
 
 function App() {
   return (
     <div className="App">
       <AboutUs />
+      <FindRecepy/>
     </div>
   );
 }
