@@ -8,7 +8,6 @@ const AboutUs = () => {
                 <div className='nav-bar'>
                     <nav>
                         <ul>
-                            <li className='home-icon'>Home</li>
                             <li>Create Recipes</li>
                             <li>Ideas</li>
                             <li>Favorites</li>
