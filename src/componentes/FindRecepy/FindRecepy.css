@@ -6,3 +6,15 @@
     font-size: 20px;
     color: #FAE392;
 }
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4%;
+    opacity: 0.5;
+    color: #000;
+  }
+  
+  input::placeholder {
+    color: #FAE392; 
+  }
