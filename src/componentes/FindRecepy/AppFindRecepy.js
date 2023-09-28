@@ -2,7 +2,7 @@ import React from "react";
 import Meal from "./Meal";
 import Recipe from "./Recepy";
 import { Route, Routes } from 'react-router-dom';
-
+import './FindRecepy.css'
 const AppFindRecepy = () => {
  return(
     <>
