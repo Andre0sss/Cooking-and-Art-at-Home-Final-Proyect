@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import MealItem from "./MealItem";
 import ReacipeIndex from "./RecipeIndex";
+import './Meal.css'
 const Meal = () => {
     const [search,setSearch]=useState();
     const [show,setShow]=useState(false);
@@ -29,17 +30,22 @@ return (
                 <h1>Search Your Food Recipe</h1>
             </div>
             <div className="searchBox">
-                <input type="search" className="search-bar" onChange={e=> setSearch(e.target.value)} onKeyPress={searchRecipe}/>
-            </div>
-            <div className="container">
-                {
-                    show ?<MealItem data={item} /> :"Not Found"
-                
-                }
+                <input placeholder="Ask for your recepy here" type="search" 
+                className="search-bar" onChange={e=> setSearch(e.target.value)} onKeyPress={searchRecipe}/>
             </div>
             <div className="indexContainer">
                  <ReacipeIndex alphaIndex={(alpha)=>setIndex(alpha)}/>
             </div>
+            <div className="container">
+                
+                    {
+                        show ?<MealItem data={item} /> :"Not Found"
+                
+                    }
+                
+            </div>
+            
+            
             
         </div>
     </>
