@@ -1,5 +1,5 @@
 import React from "react";
-
+import './FindRecepy.css'
 const FindRecepy = ()=> {
     return(
         <>
