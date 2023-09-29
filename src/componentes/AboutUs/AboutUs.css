@@ -26,9 +26,9 @@
     color: #4f7a28;
   }
   
-  .nav-bar ul li:first-child {
+  /* .nav-bar ul li:first-child {
     margin-right: auto; /* envia al lado derecho */
-  }
+  /* } */ 
   
   li:hover {
     background-color: rgb(104, 104, 104); /* Se puede cambiar para que todos tengan los mismo colores*/
@@ -109,7 +109,7 @@
     padding-top: 25vh;
     display: flex;
     width: 100%;
-    height: 67.8vh;
+   
   }
   
   /* Div con imagen */
