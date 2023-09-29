@@ -11,7 +11,7 @@
   height: auto; 
   border-radius: 8px;
   filter: brightness(70%);
-  border: 2px solid rgb(135, 42, 42);
+  border: 2px solid rgb(206, 206, 206);
 }
 
 .card img:before {
