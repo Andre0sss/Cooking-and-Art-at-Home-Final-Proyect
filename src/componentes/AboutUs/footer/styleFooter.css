@@ -17,7 +17,7 @@
 }
 
 .menuItems ul li a{
-    text-decoration: none ;
+    text-decoration: none;
     color: inherit;
     cursor: pointer;
 }
@@ -33,4 +33,3 @@
     align-items: start;
     margin-left: 15px;
 }
-

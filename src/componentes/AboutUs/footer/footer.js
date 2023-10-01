@@ -1,6 +1,8 @@
 import React from "react";
 import * as Icon from 'react-bootstrap-icons';
-import './styleFooter.css'
+import './styleFooter.css';
+import './responsive.css'
+
 
 const FooterAboutUs = () => {
     return(
