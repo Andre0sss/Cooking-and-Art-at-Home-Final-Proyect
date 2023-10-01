@@ -1,0 +1,22 @@
+/* tablet */
+@media (max-width: 768px) and (min-width: 481px){
+    .menuItems ul{
+        display: grid;
+        grid-template-columns: repeat(3, 200px);
+    }
+
+    .containerInfo{
+        align-items: center;
+    }
+}
+
+/* mobile */
+@media (max-width: 480px){
+    .menuItems ul{
+        flex-direction: column;
+    }
+
+    .containerInfo{
+        align-items: center;
+    }
+}
