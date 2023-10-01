@@ -1,4 +1,5 @@
 import React from "react";
+import * as Icon from 'react-bootstrap-icons';
 import './styleFooter.css'
 
 const FooterAboutUs = () => {
@@ -8,20 +9,20 @@ const FooterAboutUs = () => {
                 <ul>
                     <li><a href="#"> Find your recipe</a></li>
                     <li><a href="#">Ideas</a></li> 
-                   <li> <a href="#">Favorites</a></li>
+                    <li><a href="#">Favorites</a></li>
                     <li> <a href="#">About Us</a></li>
                     <li> <a href="#">Sign Up</a></li>
                 </ul>
             </section>
             <section className="containerInfo">
-                {/* <section className="iconSection">
+                <section className="iconSection">
                     <a href="#"><Icon.Twitter size="25" className="icon"/></a>
                     <a href="#"><Icon.Instagram size="25" className="icon"/></a>
                     <a href="#"><Icon.Facebook size="25" className="icon"/></a>
                     <a href="#"><Icon.Tiktok size="25" className="icon"/></a>
                     <a href="#"><Icon.Youtube size="25" className="icon"/></a>
                     <a href="#"><Icon.Pinterest size="25" className="icon"/></a>
-                </section> */}
+                </section>
                 <p>© 2023.All rights reserved</p>
             </section>
         </div>
