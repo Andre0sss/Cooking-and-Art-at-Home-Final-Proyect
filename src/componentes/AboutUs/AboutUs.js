@@ -1,5 +1,6 @@
 import React from 'react';
 import './AboutUs.css'
+import FooterAboutUs from '../AboutUs/footer/footer';
 
 const AboutUs = () => {
     return (
@@ -34,7 +35,7 @@ const AboutUs = () => {
                     </div>
                 </div>
                 <div className='footer'>
-                    <p> Irene modifica esta parte</p>
+                    <FooterAboutUs/>
                 </div>
             </div>
         </div>
