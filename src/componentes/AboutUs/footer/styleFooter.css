@@ -1,5 +1,6 @@
 :root{
     --letter: #1A5D1A;
+    --hover: #E86A33;
 }
 
 
@@ -20,6 +21,13 @@
     text-decoration: none;
     color: inherit;
     cursor: pointer;
+}
+
+.menuItems ul li:hover, .iconSection .icon:hover{
+    background-color: transparent;
+    color: var(--hover);
+    border-bottom-color: var(--hover);
+    transition: border-bottom 0.5s ease;
 }
 
 .icon{
