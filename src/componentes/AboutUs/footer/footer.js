@@ -17,7 +17,7 @@ const FooterAboutUs = () => {
                 </ul>
             </section>
             <section className="containerInfo">
-                <section className="iconSection">
+                <section className="iconSectionF">
                     <a href="#"><Icon.Twitter size="25" className="icon"/></a>
                     <a href="#"><Icon.Instagram size="25" className="icon"/></a>
                     <a href="#"><Icon.Facebook size="25" className="icon"/></a>

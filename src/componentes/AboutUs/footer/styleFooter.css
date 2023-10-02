@@ -23,14 +23,14 @@
     cursor: pointer;
 }
 
-.menuItems ul li:hover, .iconSection .icon:hover{
+.menuItems ul li:hover, .iconSectionF .icon:hover{
     background-color: transparent;
     color: var(--hover);
     border-bottom-color: var(--hover);
     transition: border-bottom 0.5s ease;
 }
 
-.icon{
+.iconSectionF .icon{
     color: var(--letter);
     margin-right: 15px;
 }
