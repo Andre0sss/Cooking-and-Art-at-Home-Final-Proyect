@@ -19,9 +19,7 @@ const AboutUs = () => {
                 <div className='content-box'>
                     <h2>Cooking and Art at Home</h2>
                     <p>Experience the magic of cooking at home with Cooking and Art at Home. Discover new techniques, ingredients and presentations that will transform your daily meals into culinary masterpieces.</p>
-                </div>
-                <div className='button-container'>
-                    <button>Create Recipes</button>
+                    <button className='button'>Create Recipes</button>
                 </div>
                 <div className='bottom-page'>
                     <div className='image-container'>
