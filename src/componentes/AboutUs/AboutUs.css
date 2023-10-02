@@ -1,152 +1,200 @@
+html {
+  font-size: 16px; /* Adjust this as your base font size */
+}
+
 /* Style for the nav-bar */
 .nav-bar {
-    background-color: rgba(0, 0, 0, 0.0); 
-    padding: 20px; 
-  }
+  background-color: rgba(0, 0, 0, 0.0); 
+  padding: 2rem; 
   
-  /* Style for the navigation links (li elements) */
-  .nav-bar ul {
-    list-style-type: none;
-    margin: 0;  
-    padding: 0;
-    display: flex;
-    justify-content: flex-end; 
-  }
+}
+
+/* Style for the navigation links (li elements) */
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;  
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.nav-bar ul li {
+  margin-right: 1.25rem;
+  color: #FBD85D;
+  text-decoration: underline #1A5D1A;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+
+li:hover {
+  background-color: rgb(104, 104, 104); /* Se puede cambiar para que todos tengan los mismo colores*/
+}
+
+
+
+
+/* Talvez cambiar imagen o ver como se le quita los derechos */
+.main-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://as2.ftcdn.net/v2/jpg/01/63/04/49/1000_F_163044970_bpm0gk6hqq5diAwe9CqIl0vWuhLsmcqE.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 100vh;
+  
+}
+/* Div con h2 y p */
+.content-box {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 1.25rem;
+  border-radius: 5px;
+  color: white;
+  margin-top: 1.25rem;
+  float: left;
+  max-width: 100%;
+  width: 45rem;
+  box-sizing: border-box;
+}
+.content-box h2 {
+  font-size: 3.75rem;
+  color: #FAE392;
+  margin-left: 0;
+  max-width: 100%;
+  width:43.75rem;
+}
+
+.content-box p {
+  font-size: 1.375rem;
+  color: #FAE392;
+  max-width: 100%;
+  width:43.75rem;
+}
+
+/* Div button */
+.button {
+  text-align: center;
+  margin-top: 6.5rem;
+  position: relative;
+  width: 9rem;
+  background-color: #1A5D1A;
+  color: #FAE392;
+  border: none;
+  padding:  0.625rem;
+  font-size: 1rem;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+  float: left;
+  
+}
+
+button:hover {
+  background-color: #18b118;
+}
+
+/* Style para la parte inferior */
+.bottom-page {
+  padding-top: 9rem;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+ 
+}
+
+/* Div con imagen */
+.image-container {
+  flex: 1;
+  padding: 0;
+  margin: 0;
+  max-width: 50%;
+  height: auto;
+  box-sizing: border-box;
+  
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+ 
+}
+
+/* Div con texto */
+.text-container {
+  flex: 1;
+  padding: 1.25rem;
+  height: auto;
+  max-width: 50%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FAE392;
+  background-color: #263A29;
+  box-sizing: border-box;
+}
+
+.text-container h1 {
+  font-size: 2.5rem;
+}
+
+.text-container p {
+  font-size: 1.75rem;
+  max-width: 23.75rem;
+}
+
+
+
+/* Div footer */
+.footer {
+  background-color: #FBD85D;
+  color: #1A5D1A;
+  padding: 1.25rem;;
+  text-align: center;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
   
   .nav-bar ul li {
-    margin-right: 20px;
-    color: #FBD85D;
-    text-decoration: underline #1A5D1A;
-    font-size: 25px;
-    cursor: pointer;
+    margin-right: 0.75rem;
+    font-size: 1.25rem;
   }
 
-  
-  li:hover {
-    background-color: rgb(104, 104, 104); /* Se puede cambiar para que todos tengan los mismo colores*/
-  }
-  
-  
-  .nav-bar ul li a {
-    text-decoration: none;
-    color: #FAE392;
-    font-weight: bold;
-    font-size: 16px;
-  }
-  
-  /* Talvez cambiar imagen o ver como se le quita los derechos */
-  .main-container {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('https://as2.ftcdn.net/v2/jpg/01/63/04/49/1000_F_163044970_bpm0gk6hqq5diAwe9CqIl0vWuhLsmcqE.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    position: relative;
-    min-height: 100vh;
-  }
-  /* Div con h2 y p */
   .content-box {
-    background-color: rgba(0, 0, 0, 0);
-    padding: 20px;
-    border-radius: 5px;
-    color: white;
-    margin-top: 20px;
-    float: left;
-    max-width: 50%;
-    width: 50%;
+    width: 100%;
   }
-  .content-box h2 {
-    font-size: 60px;
-    color: #FAE392;
-    margin-left: 0;
-    max-width: 70vh;
-  }
-  
+
+  .content-box h2,
   .content-box p {
-    font-size: 22px;
-    color: #FAE392;
-    max-width: 70vh;
+    width: 100%;
+    font-size: 1.25rem;
   }
-  
-  /* Div button */
-  .button-container {
-    text-align: left;
-    margin-top: 20px;
-    width: 50%;
-    float: left;
-    clear: both;
-    position: relative;
-    left: 0;
+
+  .button {
+    margin-top: 3rem;
+    width: 100%;
   }
-  
-  .button-container button {
-    background-color: #1A5D1A;
-    color: #FAE392;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    position: absolute;
-    left: 40px;
-    top: 60px;
-  }
-  
-  button:hover {
-    background-color: #18b118;
-  }
-  
-  /* Style para la parte inferior */
+
   .bottom-page {
-    padding-top: 25vh;
-    display: flex;
-    width: 100%;
-   
+    padding-top: 6rem;
   }
-  
-  /* Div con imagen */
-  .image-container {
-    flex: 1;
-    padding: 0px;
-    margin: 0;
-  }
-  
-  .image-container img {
-    width: 100%;
-    max-height: 75vh;
-    overflow: hidden;
-  }
-  
-  /* Div con texto */
+
+  .image-container,
   .text-container {
-    flex: 1;
-    padding: 10px;
-    max-height: 75vh;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #FAE392;
-    background-color: #263A29;
+    max-width: 100%;
+    width: 100%;
   }
-  
+
   .text-container h1 {
-    font-size: 40px;
+    font-size: 2rem;
   }
-  
+
   .text-container p {
-    font-size: 28px;
-    max-width: 380px;
+    font-size: 1.5rem;
+    max-width: 100%;
   }
-  
-  
-  
-  /* Div footer */
-  .footer {
-    background-color: #FBD85D;
-    color: #1A5D1A;
-    padding: 10px;
-    text-align: center;
-  }
-  
+}
