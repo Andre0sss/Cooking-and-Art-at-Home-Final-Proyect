@@ -1,0 +1,30 @@
+.main-container-recepy{
+    display: flex;
+    padding: 40px;
+    background-color: #263A29; 
+    color: #FAE392; 
+    font-size: 10px;
+}
+
+.inner-content {
+    width: 500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+.img-recepy{
+    width: 200px;
+    height: auto; 
+    border-radius: 8px;
+    filter: brightness(70%);
+    border: 2px solid rgb(206, 206, 206);
+}
+
+.recipe-details{
+    display: flex;
+    width: 400px;
+}
+.video{
+    width: 100px;
+}

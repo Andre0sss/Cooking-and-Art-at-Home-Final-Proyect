@@ -34,7 +34,6 @@ const AboutUs = () => {
                     </div>
                 </div>
                 <div className='footer'>
-                    <FooterAboutUs/>
                 </div>
             </div>
         </div>
