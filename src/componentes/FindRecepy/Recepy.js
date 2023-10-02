@@ -26,10 +26,14 @@ const Recipe = () => {
 
                     <div className="">
                         <div className="inner-content">
+                            <div className="img-recepy-info">
                             <img className="img-recepy" src={item.strMealThumb} alt="" />
-                            <h1>{item.strMeal}</h1>
-                            <h2>{item.strArea} Food</h2>
-                            <h3>Category {item.strCategory}</h3>
+                            </div>
+                            <div className="info-recepy-title">
+                            <p>Name: {item.strMeal}</p>
+                            <p>Type: {item.strArea} Food</p>
+                            <p>Category {item.strCategory}</p>
+                            </div>
                         </div>
                     
                         <div    className="recipe-details">
@@ -56,7 +60,7 @@ const Recipe = () => {
                         
                     </div>
                     <div className="video">
-                        <iframe width="
+                        <iframe className="video-tutorial" width="
                         100%" height="515" title="recipeVideo"
                             src={`https://www.youtube.com/embed/${id}`}>
                         </iframe>
