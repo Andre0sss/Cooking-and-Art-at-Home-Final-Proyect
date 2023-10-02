@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutUs.css'
-
+import Footer from './footer/footer';
 const AboutUs = () => {
     return (
         <div>
@@ -32,6 +32,7 @@ const AboutUs = () => {
                     </div>
                 </div>
                 <div className='footer'>
+                    <Footer/>
                 </div>
             </div>
         </div>

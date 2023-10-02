@@ -4,7 +4,7 @@ import './styleFooter.css';
 import './responsive.css'
 
 
-const FooterAboutUs = () => {
+const Footer = () => {
     return(
         <div>
             <section className="menuItems">
@@ -31,4 +31,4 @@ const FooterAboutUs = () => {
     )
 }
 
-export default FooterAboutUs;
+export default Footer;

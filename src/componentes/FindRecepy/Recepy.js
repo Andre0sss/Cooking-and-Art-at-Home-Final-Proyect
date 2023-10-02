@@ -32,7 +32,7 @@ const Recipe = () => {
                             <h3>Category {item.strCategory}</h3>
                         </div>
                     
-                        <div className="recipe-details">
+                        <div    className="recipe-details">
                             <div className="ingredients">
                                 <h2>Ingredients</h2><br />
                                 <h4>{item.strIngredient1}:{item.strMeasure1}</h4>
