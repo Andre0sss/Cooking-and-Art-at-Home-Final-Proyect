@@ -1,7 +1,6 @@
 import React from 'react';
 import './AboutUs.css'
 import FooterAboutUs from '../AboutUs/footer/footer';
-
 const AboutUs = () => {
     return (
         <div>
@@ -35,7 +34,7 @@ const AboutUs = () => {
                     </div>
                 </div>
                 <div className='footer'>
-                    <FooterAboutUs/>
+                    <FooterAboutus/>
                 </div>
             </div>
         </div>
