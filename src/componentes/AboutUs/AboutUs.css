@@ -7,7 +7,7 @@
   /* Style for the navigation links (li elements) */
   .nav-bar ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0;  
     padding: 0;
     display: flex;
     justify-content: flex-end; 
@@ -15,20 +15,12 @@
   
   .nav-bar ul li {
     margin-right: 20px;
-    color: #1A5D1A;
-    text-decoration: underline #FBD85D;
+    color: #FBD85D;
+    text-decoration: underline #1A5D1A;
     font-size: 25px;
     cursor: pointer;
   }
-  /*Change to home icon*/
-  .home-icon {
-    font-size: 24px;
-    color: #4f7a28;
-  }
-  
-  /* .nav-bar ul li:first-child {
-    margin-right: auto; /* envia al lado derecho */
-  /* } */ 
+
   
   li:hover {
     background-color: rgb(104, 104, 104); /* Se puede cambiar para que todos tengan los mismo colores*/
