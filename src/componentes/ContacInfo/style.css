@@ -1,2 +1,24 @@
-.container{
+:root{
+    --backform: #F1C93B;
+    --backinfo: #263A29;
+    --text1: #1A5D1A;
+    --text2: #FAE392;
 }
+
+.mainContainer{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    background: var(--backinfo);
+}
+
+.mainContainer .containerForm{
+    width: 60%;
+    background-color: var(--backform);
+}
+
+.mainContainer .containerInfo{
+    width: 40%;
+    background-color: var(--backinfo);
+}
+
