@@ -34,7 +34,7 @@ const AboutUs = () => {
                     </div>
                 </div>
                 <div className='footer'>
-                    <FooterAboutus/>
+                    <FooterAboutUs/>
                 </div>
             </div>
         </div>
