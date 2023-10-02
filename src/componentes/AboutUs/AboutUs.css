@@ -25,6 +25,10 @@ html {
   font-size: 1.5rem;
   cursor: pointer;
 }
+.nav-bar ul li a{
+  text-decoration: none;
+  color: inherit;
+}
 
 
 

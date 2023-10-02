@@ -8,11 +8,11 @@ const AboutUs = () => {
                 <div className='nav-bar'>
                     <nav>
                         <ul>
-                            <li>Create Recipes</li>
-                            <li>Ideas</li>
-                            <li>Favorites</li>
-                            <li>About Us</li>
-                            <li>Sing Up</li>
+                            <li><a href='create-recipes'>Create Recipes</a></li>
+                            <li><a href='ideas'>Ideas</a></li>
+                            <li><a href='favorites'>Favorites</a></li>
+                            <li><a href='about-us'>About Us</a></li>
+                            <li><a href='sing-up'>Sing Up</a></li>
                         </ul>
                     </nav>
                 </div>
