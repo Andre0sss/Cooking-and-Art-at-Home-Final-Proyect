@@ -16,21 +16,23 @@ const ContactUs = () => {
             </form>
         </div>
         <div className="containerInfo">
-            <Icon.HouseFill size="25"/>
-            <h2>Contact Info</h2>
-            <p><Icon.EnvelopeAtFill size="25"/> empresa@gmail.com</p>
-            <p><Icon.TelephoneFill size="25"/> +506 1234-5678</p>
-            <section>
-            <section className="iconSectionC">
-                    <a href="#"><Icon.Twitter size="25" className="icon"/></a>
-                    <a href="#"><Icon.Instagram size="25" className="icon"/></a>
-                    <a href="#"><Icon.Facebook size="25" className="icon"/></a>
-                    <a href="#"><Icon.Tiktok size="25" className="icon"/></a>
-                    <a href="#"><Icon.Youtube size="25" className="icon"/></a>
-                    <a href="#"><Icon.Pinterest size="25" className="icon"/></a>
-                </section>
+            <section className="iconHome"> 
+                <Icon.HouseFill size="40" id="home"/> 
             </section>
-            <p>© 2023. All rights reserved</p>
+                <h2>Contact Info</h2>
+                <p><Icon.EnvelopeAtFill size="40" className="icon"/> empresa@gmail.com</p>
+                <p><Icon.TelephoneFill size="40"  className="icon"/> +506 1234-5678</p>
+            <section className="miniFooter">
+                <section className="iconSectionC">
+                        <a href="#"><Icon.Twitter size="40" className="icon"/></a>
+                        <a href="#"><Icon.Instagram size="40" className="icon"/></a>
+                        <a href="#"><Icon.Facebook size="40" className="icon"/></a>
+                        <a href="#"><Icon.Tiktok size="40" className="icon"/></a>
+                        <a href="#"><Icon.Youtube size="40" className="icon"/></a>
+                        <a href="#"><Icon.Pinterest size="40" className="icon"/></a>
+                </section>
+                <p>© 2023. All rights reserved</p>
+            </section>
         </div>
     </div>
     );
