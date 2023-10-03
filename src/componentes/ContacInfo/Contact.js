@@ -8,7 +8,7 @@ const ContactUs = () => {
     <div className="mainContainer">
         <div className="containerForm">
             <h1>Problems with the kitchen?</h1>
-            <form>
+            <form className="contactForm">
                 <input placeholder="Name" type="text"></input>
                 <input placeholder="Email" type="email"></input>
                 <textarea placeholder="Message"></textarea>

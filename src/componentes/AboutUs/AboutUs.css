@@ -25,6 +25,10 @@ html {
   font-size: 1.5rem;
   cursor: pointer;
 }
+.nav-bar ul li a{
+  text-decoration: none;
+  color: inherit;
+}
 
 
 
@@ -96,7 +100,7 @@ button:hover {
 
 /* Style para la parte inferior */
 .bottom-page {
-  padding-top: 9rem;
+  padding-top: 5rem;
   display: flex;
   width: 100%;
   flex-wrap: wrap;
@@ -116,7 +120,7 @@ button:hover {
 
 .image-container img {
   max-width: 100%;
-  height: auto;
+  height: 100%;
   overflow: hidden;
  
 }
