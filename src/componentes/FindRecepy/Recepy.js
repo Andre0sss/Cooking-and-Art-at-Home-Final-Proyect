@@ -32,7 +32,7 @@ const Recipe = () => {
                             <div className="info-recepy-title">
                             <p>Name: {item.strMeal}</p>
                             <p>Type: {item.strArea} Food</p>
-                            <p>Category {item.strCategory}</p>
+                            <p>Category: {item.strCategory}</p>
                             </div>
                         </div>
                     

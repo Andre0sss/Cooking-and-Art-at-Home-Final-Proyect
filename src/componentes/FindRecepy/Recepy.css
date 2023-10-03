@@ -20,13 +20,14 @@
     border-radius: 8px;
     padding: 10px;
     display: flex;
-    max-height: 40px;
+    max-height: 150px;
     height: 100%;
     width: auto;
 }
 .info-recepy-title p{
     padding: 5px;
     font-weight: bold;
+    font-size: 20px;
 }
 .img-recepy{
     width: 200px;
