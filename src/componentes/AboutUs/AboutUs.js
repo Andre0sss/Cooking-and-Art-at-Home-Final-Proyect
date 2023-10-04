@@ -1,6 +1,10 @@
 import React from 'react';
 import './AboutUs.css'
+<<<<<<< Updated upstream
 import Footer from './footer/footer';
+=======
+
+>>>>>>> Stashed changes
 const AboutUs = () => {
     return (
         <div>
