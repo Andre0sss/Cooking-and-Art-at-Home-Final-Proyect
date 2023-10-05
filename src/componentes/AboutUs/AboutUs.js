@@ -1,21 +1,12 @@
 import React from 'react';
 import './AboutUs.css'
 import Footer from './footer/footer';
+
 const AboutUs = () => {
     return (
         <div>
             <div className='main-container'>
-                <div className='nav-bar'>
-                    <nav>
-                        <ul>
-                            <li><a href='create-recipes'>Create Recipes</a></li>
-                            <li><a href='ideas'>Ideas</a></li>
-                            <li><a href='favorites'>Favorites</a></li>
-                            <li><a href='about-us'>About Us</a></li>
-                            <li><a href='sing-up'>Sing Up</a></li>
-                        </ul>
-                    </nav>
-                </div>
+                
                 <div className='content-box'>
                     <h2>Cooking and Art at Home</h2>
                     <p>Experience the magic of cooking at home with Cooking and Art at Home. Discover new techniques, ingredients and presentations that will transform your daily meals into culinary masterpieces.</p>
@@ -35,8 +26,8 @@ const AboutUs = () => {
                     <Footer/>
                 </div>
             </div>
+            
         </div>
     );
 };
-
 export default AboutUs;
