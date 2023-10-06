@@ -6,7 +6,6 @@ import { Link, Outlet } from "react-router-dom";
 const NavLanding = ()=>{
     return(
     <div className='nav-bar'>
-        <div>
                     <nav>
                         <ul>
                             <li>
@@ -21,7 +20,6 @@ const NavLanding = ()=>{
                         </ul>
                     </nav>
                     <Outlet/>
-        </div>
     </div>
     )
 }

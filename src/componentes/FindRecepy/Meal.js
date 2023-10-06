@@ -26,9 +26,8 @@ const Meal = () => {
 return (
     <>
         <div className="main">
-            <div className="heading">
-                <h1>Search Your Food Recipe</h1>
-            </div>
+                <h1 className="text-recepy">Search Your Food Recipe</h1>
+            
             <div className="searchBox">
                 <input placeholder="Ask for your recepy here" type="search" 
                 className="search-bar" onChange={e=> setSearch(e.target.value)} onKeyPress={searchRecipe}/>
