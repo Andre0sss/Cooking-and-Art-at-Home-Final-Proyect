@@ -16,6 +16,12 @@ html {
   padding-top: 25px ;
   overflow-x: hidden;
   
+
+}
+
+.nav-text{
+  position: relative;
+  top: -10px;
 }
 
 nav.nav-bar ul {
@@ -25,6 +31,7 @@ nav.nav-bar ul {
 
 nav.nav-bar ul li {
   margin-left: 40px !important;
+
 }
 
 
@@ -41,7 +48,7 @@ nav.nav-bar ul li {
 .nav-bar ul li {
   margin-right: 1.25rem;
   color: var(--letter);
-  text-decoration: underline var(--hover);
+  text-decoration: underline #FBD85D;
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -169,6 +176,7 @@ button:hover {
 .text-container p {
   font-size: 1.75rem;
   max-width: 23.75rem;
+  padding: 1rem;
 }
 
 

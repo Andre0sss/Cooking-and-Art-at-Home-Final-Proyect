@@ -6,7 +6,7 @@ import { Link, Outlet } from "react-router-dom";
 const NavLanding = ()=>{
     return(
     <div className='nav-bar'>
-                    <nav>
+                    <nav className="nav-text">
                         <ul>
                             <li>
                                 <Link to='/createRecepy'>Create Recipe</Link>
