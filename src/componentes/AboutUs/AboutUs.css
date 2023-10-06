@@ -29,8 +29,13 @@ html {
 
 .nav-bar ul li {
   margin-right: 1.25rem;
+<<<<<<< Updated upstream
   color: var(--letter);
   text-decoration: underline var(--hover);
+=======
+  color: #e9e9e9;
+  text-decoration: underline #1A5D1A;
+>>>>>>> Stashed changes
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -72,7 +77,7 @@ html {
 }
 .content-box h2 {
   font-size: 3.75rem;
-  color: #FAE392;
+  color: #e9e9e9;
   margin-left: 0;
   max-width: 100%;
   width:43.75rem;
@@ -80,7 +85,7 @@ html {
 
 .content-box p {
   font-size: 1.375rem;
-  color: #FAE392;
+  color: #e9e9e9;
   max-width: 100%;
   width:43.75rem;
 }
@@ -92,7 +97,7 @@ html {
   position: relative;
   width: 9rem;
   background-color: #1A5D1A;
-  color: #FAE392;
+  color: #e9e9e9;
   border: none;
   padding:  0.625rem;
   font-size: 1rem;
@@ -146,7 +151,7 @@ button:hover {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  color: #FAE392;
+  color: #e9e9e9;
   background-color: #263A29;
 
 }
@@ -164,7 +169,7 @@ button:hover {
 
 /* Div footer */
 .footer {
-  background-color: #FBD85D;
+  background-color: #41644A;
   color: #1A5D1A;
   padding: 1.25rem;;
   text-align: center;
