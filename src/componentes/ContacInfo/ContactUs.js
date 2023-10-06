@@ -16,9 +16,6 @@ const ContactUs = () => {
             </form>
         </div>
         <div className="containerInfo">
-            <section className="iconHome"> 
-                <Icon.HouseFill size="40" id="home"/> 
-            </section>
                 <h2>Contact Info</h2>
                 <p><Icon.EnvelopeAtFill size="40" className="icon"/> empresa@gmail.com</p>
                 <p><Icon.TelephoneFill size="40"  className="icon"/> +506 1234-5678</p>

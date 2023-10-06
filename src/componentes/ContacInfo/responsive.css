@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+    .mainContainer .containerForm{
+        padding: 20px;
+    }
+    .mainContainer{
+        flex-direction: column;
+    }
+    .mainContainer .containerForm, .mainContainer .containerInfo{
+        width: 100%;
+    }
+    .mainContainer .containerInfo{
+        padding: 0;
+        margin: 0;
+    }
+    .containerInfo h2{
+        font-size: 60px;
+        text-align: center;
+    }
+    .containerInfo p{
+        font-size: 30px;
+    }
+    .contactForm button{
+        min-width: 70%;
+        padding: 15px;
+        font-size: 25px;
+    }
+}
