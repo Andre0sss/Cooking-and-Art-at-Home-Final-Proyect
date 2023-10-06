@@ -10,10 +10,10 @@ const NavLanding = ()=>{
                     <nav>
                         <ul>
                             <li>
-                                <Link to='/createRecepy'>Create Recepy</Link>
+                                <Link to='/createRecepy'>Create Recipe</Link>
                             </li>
                             <li>
-                                <Link to='/contacUs'>Contac Us</Link>
+                                <Link to='/contacUs'>Contact Us</Link>
                             </li>
                             <li>
                                 <Link to="/">Home</Link> 

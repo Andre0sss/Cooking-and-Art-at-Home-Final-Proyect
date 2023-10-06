@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
             <section className="menuItems">
                 <ul>
-                    <li> Find your recipeli</li>
+                    <li> Find your recipes</li>
                     <li>Ideas</li> 
                     <li>Favorites</li>
                     <li> About Us</li>
