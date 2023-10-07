@@ -68,7 +68,7 @@ nav.nav-bar ul li {
 /* Talvez cambiar imagen o ver como se le quita los derechos */
 .main-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('https://as2.ftcdn.net/v2/jpg/01/63/04/49/1000_F_163044970_bpm0gk6hqq5diAwe9CqIl0vWuhLsmcqE.jpg');
+    url('/src/images/cooking.avif');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
