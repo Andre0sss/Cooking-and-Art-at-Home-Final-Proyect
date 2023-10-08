@@ -197,12 +197,14 @@ button:hover {
     padding-top: 6rem;
   }
 
-  .image-container,
-  .text-container {
-    max-width: 100%;
-    width: 100%;
+  .bottom-page {
     flex-direction: column;
   }
+
+  .image-container, .text-container{
+    min-width: 100%;
+  }
+
 
   .text-container h1 {
     font-size: 2rem;
@@ -210,7 +212,7 @@ button:hover {
 
   .text-container p {
     font-size: 1.5rem;
-    max-width: 100%;
+    max-width: 85%;
   }
 }
 
