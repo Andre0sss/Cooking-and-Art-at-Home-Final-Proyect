@@ -4,6 +4,8 @@
     border: none; 
     cursor: pointer;
     position: relative;
+    margin-bottom: 30px;
+    margin-left: 40px;
   }
 
 .card img {

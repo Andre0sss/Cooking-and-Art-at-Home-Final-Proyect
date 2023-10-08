@@ -9,7 +9,7 @@ const NavLanding = ()=>{
                     <nav className="nav-text">
                         <ul>
                             <li>
-                                <Link to='/createRecepy'>Create Recipe</Link>
+                                <Link to='/findRecepy'>Create Recipe</Link>
                             </li>
                             <li>
                                 <Link to='/contacUs'>Contact Us</Link>

@@ -16,25 +16,7 @@ html {
   padding-top: 25px ;
   overflow-x: hidden;
   
-
 }
-
-.nav-text{
-  position: relative;
-  top: -10px;
-}
-
-nav.nav-bar ul {
-  padding: 20px;
-}
-
-
-nav.nav-bar ul li {
-  margin-left: 40px !important;
-
-}
-
-
 
 /* Style for the navigation links (li elements) */
 .nav-bar ul {
@@ -48,7 +30,7 @@ nav.nav-bar ul li {
 .nav-bar ul li {
   margin-right: 1.25rem;
   color: var(--letter);
-  text-decoration: underline #FBD85D;
+  text-decoration: underline var(--hover);
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -68,7 +50,7 @@ nav.nav-bar ul li {
 /* Talvez cambiar imagen o ver como se le quita los derechos */
 .main-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('/src/images/cooking.avif');
+    url('https://as2.ftcdn.net/v2/jpg/01/63/04/49/1000_F_163044970_bpm0gk6hqq5diAwe9CqIl0vWuhLsmcqE.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -176,7 +158,6 @@ button:hover {
 .text-container p {
   font-size: 1.75rem;
   max-width: 23.75rem;
-  padding: 1rem;
 }
 
 
@@ -230,10 +211,6 @@ button:hover {
   .text-container p {
     font-size: 1.5rem;
     max-width: 100%;
-  }
-
-  .bottom-page{
-    flex-direction: column;
   }
 }
 

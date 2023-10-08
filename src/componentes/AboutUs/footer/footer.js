@@ -2,18 +2,19 @@ import React from "react";
 import * as Icon from 'react-bootstrap-icons';
 import './styleFooter.css';
 import './responsive.css';
-
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return(
         <div>
             <section className="menuItems">
                 <ul>
-                    <li> Find your recipes</li>
-                    <li>Ideas</li> 
-                    <li>Favorites</li>
-                    <li> About Us</li>
-                    <li> Sign Up</li>
+                    <Link to={'/findRecepy'}>
+                        <li>Find recipes</li>
+                    </Link>
+                    <Link to={'/contacUs'}>
+                        <li>Contac Us</li>
+                    </Link>
                 </ul>
             </section>
             <section className="containerInfo">
