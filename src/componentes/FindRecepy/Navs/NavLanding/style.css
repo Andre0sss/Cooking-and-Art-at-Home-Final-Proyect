@@ -11,3 +11,14 @@ nav.nav-text {
 .nav-text ul li a{
     margin-left: 15px;
 }
+
+/* Ajustes menu responsive */
+@media (max-width: 768px) {
+    .nav-text ul li a{
+        font-size: 18px;
+        font-weight: 500;
+        margin: 0;
+        text-align: center;
+    }
+
+}
