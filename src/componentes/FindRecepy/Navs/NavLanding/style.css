@@ -1,0 +1,13 @@
+nav.nav-text {
+    padding-bottom: 30px;
+}
+
+.nav-text ul li{
+    color: #263A29;
+    margin-left: 20px;
+}
+
+
+.nav-text ul li a{
+    margin-left: 15px;
+}
