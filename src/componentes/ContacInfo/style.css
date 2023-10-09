@@ -55,6 +55,7 @@ div.containerForm{
 
 .contactForm input::placeholder, .contactForm textarea::placeholder {
     color: var(--text1);
+    font-size: 18px;
 }
 
 .contactForm button{
