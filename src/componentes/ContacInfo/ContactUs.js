@@ -7,7 +7,7 @@ const ContactUs = () => {
     return(
     <div className="mainContainer">
         <div className="containerForm">
-            <h1>Problems with the kitchen?</h1>
+            <h1>Problems in the kitchen?</h1>
             <form className="contactForm">
                 <input placeholder="Name" type="text"></input>
                 <input placeholder="Email" type="email"></input>

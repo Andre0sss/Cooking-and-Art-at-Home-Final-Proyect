@@ -13,7 +13,7 @@ const Footer = () => {
                         <li>Find recipes</li>
                     </Link>
                     <Link to={'/contacUs'}>
-                        <li>Contac Us</li>
+                        <li>Contact Us</li>
                     </Link>
                 </ul>
             </section>
