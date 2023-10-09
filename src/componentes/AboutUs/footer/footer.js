@@ -19,9 +19,9 @@ const Footer = () => {
             </section>
             <section className="containerInfo">
                 <section className="iconSectionF">
-                    <a href="#"><Icon.Twitter size="25" className="icon"/></a>
-                    <a href="#"><Icon.Instagram size="25" className="icon"/></a>
-                    <a href="#"><Icon.Facebook size="25" className="icon"/></a>
+                    <a href="https://www.instagram.com/"><Icon.Instagram size="25" className="icon"/></a>
+                    <a href="https://twitter.com/"><Icon.Twitter size="25" className="icon"/></a>
+                    <a href="https://www.facebook.com/"><Icon.Facebook size="25" className="icon"/></a>
                     <a href="#"><Icon.Tiktok size="25" className="icon"/></a>
                     <a href="#"><Icon.Youtube size="25" className="icon"/></a>
                     <a href="#"><Icon.Pinterest size="25" className="icon"/></a>
