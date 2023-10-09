@@ -16,8 +16,9 @@
     margin-top: 0;
 }
 .search-bar {
-    width: 40rem;
-    height: 2rem;
+    min-width: 90%;
+    height: 3rem;
+    padding: 10px;
     border: none;
     opacity: 1;
     display: block;
@@ -27,6 +28,7 @@
   }
 .search-bar::placeholder {
     color: #e9e9e9;
+    font-size: 20px;
   }
 
 .indexContainer{
@@ -44,4 +46,17 @@
     padding-left: 20px; 
     font-size: 16px;
     cursor: pointer;
+}
+
+/* Ajustes letras responsive */
+@media (max-width: 768px) {
+    .indexContainer {
+        display: grid;
+        grid-template-columns: repeat(5, 50px);
+        width: 16rem;
+        justify-content: center !important;
+        margin: 0 auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 }
