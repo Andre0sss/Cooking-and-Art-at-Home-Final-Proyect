@@ -8,7 +8,9 @@ const Recipe = () => {
     const [item, setItem] = useState(); 
     const { recipeId } = useParams();
     if (recipeId !==" ") {
-        fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${recipeId}`).then(res => res.json()).then(data => {
+        fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${recipeId}`)
+        .then(res => res.json())
+        .then(data => {
             setItem(data.meals[0]);  
         })
     }
@@ -30,9 +32,9 @@ const Recipe = () => {
                             <img className="img-recepy" src={item.strMealThumb} alt="" />
                             </div>
                             <div className="info-recepy-title">
-                            <p>Name: {item.strMeal}</p>
-                            <p>Type: {item.strArea} Food</p>
-                            <p>Category: {item.strCategory}</p>
+                            <h3>Name: {item.strMeal}</h3>
+                            <h3>Type: {item.strArea} Food</h3>
+                            <h3>Category: {item.strCategory}</h3>
                             </div>
                         </div>
                     

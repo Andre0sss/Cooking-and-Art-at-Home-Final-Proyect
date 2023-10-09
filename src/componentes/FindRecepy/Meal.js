@@ -26,10 +26,10 @@ const Meal = () => {
 return (
     <>
         <div className="main">
-                <h1 className="text-recepy">Search Your Food Recipe</h1>
+                <h1 className="text-recepy">Search for your next recipe</h1>
             
             <div className="searchBox">
-                <input placeholder="Ask for your recepy here" type="search" 
+                <input placeholder="Discover your next recipe here" type="search" 
                 className="search-bar" onChange={e=> setSearch(e.target.value)} onKeyPress={searchRecipe}/>
             </div>
             <div className="indexContainer">
