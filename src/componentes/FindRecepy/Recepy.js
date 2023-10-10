@@ -20,7 +20,6 @@ const Recipe = () => {
       id=str[str.length-1];
     }
   
-
     return (
         <>
             {
@@ -49,6 +48,7 @@ const Recipe = () => {
                                 <h4>{item.strIngredient6}:{item.strMeasure6}</h4>
                                 <h4>{item.strIngredient7}:{item.strMeasure7}</h4>
                                 <h4>{item.strIngredient8}:{item.strMeasure8}</h4>
+
 
                                 <div className="instructions">
                                     <h2>Instructions</h2><br />
