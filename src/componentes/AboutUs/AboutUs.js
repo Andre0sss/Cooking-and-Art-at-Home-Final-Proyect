@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutUs.css'
 import Footer from './footer/footer';
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 
 const AboutUs = () => {
     return (
@@ -12,6 +12,7 @@ const AboutUs = () => {
                     <h2>Cooking and Art at Home</h2>
                     <p>Experience the magic of cooking at home with Cooking and Art at Home. Discover new techniques, ingredients and presentations that will transform your daily meals into culinary masterpieces.</p>
                     <Link to={'/findRecepy'}><button className='button'>Find recipes</button></Link>
+                    <Outlet/>
                 </div>
                 <div className='bottom-page'>
                     <div className='image-container'>

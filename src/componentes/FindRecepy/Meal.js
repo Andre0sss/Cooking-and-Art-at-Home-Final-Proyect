@@ -18,7 +18,7 @@ const Meal = () => {
      },[url])
 
      const searchRecipe=(evt)=>{
-        setUrl(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`)
+        setUrl(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`);
    }
     const setIndex=(alpha)=>{
         setUrl(`https://www.themealdb.com/api/json/v1/1/search.php?f=${alpha}`);
@@ -30,7 +30,7 @@ return (
             
             <div className="searchBox">
                 <input placeholder="Discover your next recipe here" type="search" 
-                className="search-bar" onChange={e=> setSearch(e.target.value)} onKeyPress={searchRecipe}/>
+                className="search-bar" onChange={e=> setSearch(e.target.value)}/>
             </div>
             <div className="indexContainer">
                  <ReacipeIndex alphaIndex={(alpha)=>setIndex(alpha)}/>

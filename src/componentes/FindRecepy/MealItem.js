@@ -14,7 +14,7 @@ const MealItem=({data})=>{
                         <img src={item.strMealThumb} alt="" />
                         <h3 className="recepyName">{item.strMeal}</h3>
                         <div className="recepyButton">
-                            <h4 className="recepyTextButton">Recepy</h4>
+                            <h4 className="recepyTextButton">Recipe</h4>
                         </div>
                     </div>
                     )

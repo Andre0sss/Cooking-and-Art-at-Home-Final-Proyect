@@ -2,7 +2,7 @@ import React from "react";
 import * as Icon from 'react-bootstrap-icons';
 import './styleFooter.css';
 import './responsive.css';
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 const Footer = () => {
     return(
@@ -16,6 +16,7 @@ const Footer = () => {
                         <li>Contact Us</li>
                     </Link>
                 </ul>
+                <Outlet/>
             </section>
             <section className="containerInfo">
                 <section className="iconSectionF">
