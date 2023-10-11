@@ -30,7 +30,7 @@ return (
             
             <div className="searchBox">
                 <input placeholder="Discover your next recipe here" type="search" 
-                className="search-bar" onChange={e=> setSearch(e.target.value)}/>
+                className="search-bar" onChange={e=> setSearch(e.target.value)} onKeyPress={searchRecipe}/>
             </div>
             <div className="indexContainer">
                  <ReacipeIndex alphaIndex={(alpha)=>setIndex(alpha)}/>
