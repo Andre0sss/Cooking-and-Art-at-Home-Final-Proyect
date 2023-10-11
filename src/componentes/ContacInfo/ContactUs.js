@@ -35,7 +35,7 @@ const ContactUs = () => {
                 <textarea placeholder="Message" name="message"></textarea>
                 <button type="submit" value="Send">Submit</button>
             </form>
-            {mostrarMensaje && <p className='comentarioContacUs'>Comentarios enviados con éxito, espere una respuesta pronto!</p>}
+            {mostrarMensaje && <p className='comentarioContacUs'>Comentario enviado con éxito, espere una respuesta pronto!</p>}
         </div>
         <div className="containerInfo">
                 <h2>Contact Info</h2>
