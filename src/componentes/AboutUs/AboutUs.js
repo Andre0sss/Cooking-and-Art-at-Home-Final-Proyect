@@ -20,7 +20,7 @@ const AboutUs = () => {
                     </div>
                     <div className='text-container'>
                         <h1>About Us</h1>
-                        <p>CocinaArteEnCasa is a brand that fuses a passion for cooking with culinary art. Our mission is to inspire people to cook with creativity and style in their own space.
+                        <p>Cooking and Art at Home is a brand that fuses a passion for cooking with culinary art. Our mission is to inspire people to cook with creativity and style in their own space.
                         </p>
                     </div>
                 </div>
