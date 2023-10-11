@@ -23,9 +23,9 @@ const Footer = () => {
                     <a href="https://www.instagram.com/"><Icon.Instagram size="25" className="icon"/></a>
                     <a href="https://twitter.com/"><Icon.Twitter size="25" className="icon"/></a>
                     <a href="https://www.facebook.com/"><Icon.Facebook size="25" className="icon"/></a>
-                    <a href="#"><Icon.Tiktok size="25" className="icon"/></a>
-                    <a href="#"><Icon.Youtube size="25" className="icon"/></a>
-                    <a href="#"><Icon.Pinterest size="25" className="icon"/></a>
+                    <a href="https://www.tiktok.com/"><Icon.Tiktok size="25" className="icon"/></a>
+                    <a href="https://www.youtube.com/"><Icon.Youtube size="25" className="icon"/></a>
+                    <a href="https://www.pinterest.es/"><Icon.Pinterest size="25" className="icon"/></a>
                 </section>
                 <p>© 2023.All rights reserved</p>
             </section>
