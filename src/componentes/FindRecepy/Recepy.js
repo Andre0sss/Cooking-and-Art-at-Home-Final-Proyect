@@ -39,7 +39,7 @@ const Recipe = () => {
                     
                         <div    className="recipe-details">
                             <div className="ingredients">
-                                <h2>Ingredients</h2><br />
+                                <h2><span>Ingredients</span></h2><br />
                                 <h4>{item.strIngredient1}:{item.strMeasure1}</h4>
                                 <h4>{item.strIngredient2}:{item.strMeasure2}</h4>
                                 <h4>{item.strIngredient3}:{item.strMeasure3}</h4>
@@ -51,7 +51,7 @@ const Recipe = () => {
 
 
                                 <div className="instructions">
-                                    <h2>Instructions</h2><br />
+                                    <h2><span>Instructions</span></h2><br />
                                     <h4>{item.strInstructions}</h4>
                                 </div>
                             </div>

@@ -14,8 +14,7 @@
 
 /* mobile */
 @media (max-width: 480px){
-    .menuItems ul{
-        
+    .menuItems ul,y{
         flex-direction: column;
     }
 

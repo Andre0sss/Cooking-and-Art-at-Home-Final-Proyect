@@ -70,6 +70,10 @@
     border: none;
 }
 
+.ingredients span{
+    font-size: 50px;
+}
+
 @media (max-width: 768px){
     .inner-content {
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
@@ -78,6 +82,31 @@
       }
       .inner-content h3{
         font-size: 25px;
-        
       }
+      .main-container-recepy{
+        flex-direction: column !important;
+      }
+      .img-recepy-info img {
+        max-width: 90%;
+    }
+    .info-recepy-title {
+        max-width: 21rem;
+    }
+      .recipe-details {
+        max-width: 21rem;
+    }
+    .ingredients{
+        padding: 20px;
+    }
+    .ingredients h4{
+        font-size: 18px;
+    }
+    .ingredients span{
+        font-size: 25px;
+    }
+
+    .video {
+        max-height: 15rem;
+        max-width: 90%;
+    }
 }
