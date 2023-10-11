@@ -171,7 +171,7 @@ button:hover {
 }
 
 /* Media Query */
-@media (max-width: 768px)  and (min-width: 481px){
+@media (max-width: 768px){
   
   .nav-bar ul li {
     margin-right: 0.75rem;
@@ -201,10 +201,10 @@ button:hover {
     flex-direction: column;
   }
 
-  .image-container{
-    min-height: 40rem !important;
+  /* .image-container{
+    height: 40rem !important;
     width: 100% !important;
-  } 
+  }  */
 
   .image-container, .text-container{
     min-width: 100%;
@@ -221,7 +221,7 @@ button:hover {
   }
 }
 
-.image-container{
+/* .image-container{
   height: 40rem;
   background: no-repeat center/cover url('../AboutUs/img/WhatsApp\ Image\ 2023-10-10\ at\ 7.44.06\ PM.jpeg');
-}
+} */

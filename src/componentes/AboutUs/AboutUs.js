@@ -16,6 +16,7 @@ const AboutUs = () => {
                 </div>
                 <div className='bottom-page'>
                     <div className='image-container'>
+                        <img src="https://images.pexels.com/photos/4259707/pexels-photo-4259707.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
                     </div>
                     <div className='text-container'>
                         <h1>About Us</h1>

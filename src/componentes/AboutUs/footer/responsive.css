@@ -6,17 +6,22 @@
     }
 
     .containerInfo{
-        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+        align-content: center;
     }
 }
 
 /* mobile */
 @media (max-width: 480px){
     .menuItems ul{
+        
         flex-direction: column;
     }
 
     .containerInfo{
+        display: flex;
         align-items: center;
+        justify-content: center;
     }
 }
