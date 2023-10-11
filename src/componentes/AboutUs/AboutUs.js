@@ -16,7 +16,7 @@ const AboutUs = () => {
                 </div>
                 <div className='bottom-page'>
                     <div className='image-container'>
-                        <img src="https://as2.ftcdn.net/v2/jpg/06/33/52/89/1000_F_633528980_p0cSBGMSuzBp5ZJiHWPnU9K0KcgEhjyn.jpg" alt="mom and daugher cooking"/>
+                        {/* <img src="../AboutUs/img/WhatsApp\ Image\ 2023-10-10\ at\ 7.44.06\ PM.jpeg"/> */}
                     </div>
                     <div className='text-container'>
                         <h1>About Us</h1>
