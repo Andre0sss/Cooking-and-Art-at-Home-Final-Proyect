@@ -65,6 +65,7 @@ div.containerForm{
     border-radius: 4px;
     color: var(--text2);
     background-color: var(--text1);
+    cursor: pointer;
 }
 
 /* --------------- */
