@@ -24,4 +24,11 @@
         padding: 15px;
         font-size: 25px;
     }
+    .containerInfo p{
+        font-size: 20px;
+        width: 90% !important;
+    }
+    .iconSectionC a .icon{
+        width: 30px !important;
+    }
 }
